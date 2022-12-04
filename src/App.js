@@ -13,7 +13,7 @@ const App = () => {
     <div className='max-w-[1440px] mx-auto bg-white'>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/real-estate-website' element={<Home />} />
         <Route path='/property/:id' element={<PropertyDetails />} />
       </Routes>
       <Footer />
